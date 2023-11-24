@@ -8,6 +8,37 @@ I wore my tin-foil hat and started reading through papers, luckily! I didn't nee
 
 I applied Nougat combined with Google Text-to-Audio library (Public API) and made the same product like Listening[dot]com/io in practically spending nothing. 
 
+### How to use it?
+
+**Install**
+`pip install git+https://github.com/sleepingcat4/open-listen.git`
+
+**On Terminal**
+```Terminal
+cd open-listen
+```
+
+**Pdf-Text**
+```Python
+from pdf2text import pdftotext
+pdftotext(pdf_path, output_dir)
+```
+
+**View the text**
+```Python
+from displaytext import displaytotext
+file_path = "</path/>"
+displaytotext(file_path)
+```
+
+Text-Audio
+```Python
+from texttoaudio import text_toaudio 
+file_path = "</path>"
+text_toaudio(file_path)
+```
+
+
 ### What I learnt?
 
 Startups tend to scam people by over-hyping what they can provide. I totally believe converting papers to audio can be helpful for students but if you're trying to make your business around it then someone like me will close your shop in matters of days if not hours. 
