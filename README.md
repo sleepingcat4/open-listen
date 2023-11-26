@@ -13,6 +13,11 @@ I applied Nougat combined with Google Text-to-Audio library (Public API) and mad
 **Install**
 `pip install git+https://github.com/sleepingcat4/open-listen.git`
 
+**Installing from pypi**
+```
+pip install open2listen
+```
+
 **On Terminal**
 ```Terminal
 cd open-listen
@@ -59,7 +64,7 @@ Oh, by the way, I was looking to try Nougat library lately that's another reason
 
 - [ ] Adding pre-processing
 - [ ] Writing logic to avoid Google's limitation
-- [ ] Making it a library
+- [x] ~~Making it a library~~
 
 Contribution
 Please, contribute and if you have other ideas, feel free to implement. That's how, Open Source works. And don't fall for scam startups by paying them your hard-earned cash. Stay safe! ^^
